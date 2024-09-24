@@ -44,4 +44,6 @@ plt.title('Rank Plot')
 plt.show()
 
 #create a histogram of Rank column
-plt.hist(def['Age'], bins=5)
+plt.hist(df['Rank'], bins=5)
+plt.title('Rank Distribution')
+plt.show()
